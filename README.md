@@ -1,4 +1,4 @@
-# GoogleFonts Preview
+# Google Fonts Preview
 
 Original code: https://codepen.io/gonshz/pen/GRJKgPz?editors=1010
 
