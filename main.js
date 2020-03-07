@@ -45,7 +45,7 @@ fetch(apiUrl)
 			fontsCategoryData.push(font.category);
 			
             if(i==20) {
-                loadMore(fontsData.slice,fontsCategoryData.slice(startVal.loadIndex));
+                loadMore(fontsData.slice(),fontsCategoryData.slice(startVal.loadIndex));
 				//loadMore(fontsData.slice(startVal.loadIndex));
 				startVal.loadIndex += 20;
             }
@@ -107,7 +107,7 @@ var scrollLoading = function() {
     window.addEventListener("scroll", function() {
         if(scrollDetection()) {
 		
-		loadMore(fontsData.slice,fontsCategoryData.slice(startVal.loadIndex));
+		loadMore(fontsData.slice(),fontsCategoryData.slice(startVal.loadIndex));
 		
         }
     })
